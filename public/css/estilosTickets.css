@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* N A V B A R */
+.bg-dark-grey{
+    background-color: #353a40;
+}
+
+.nav-link{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* S E L E C C I O N   D E   T I C K E T S */
+#principal{
+    width: 55vw;
+    margin: 60px auto 10px;
+}
+
+.entradas{
+    height: 32vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ticket .card{
+    border-radius: 0px;
+    height: 180px;
+}
+
+
+/* F O R M U L A R I O   T I C K E T S */
+
+.venta-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.venta-title h5{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+.btn-form{
+    background-color: #96c93e;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* F O O T E R */
+.footer{
+    background-color: #1b3745;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-content{
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.footer-section{
+    margin: 5px 24px;
+    width: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-section a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-section a:hover{
+    color: #000;
+    transform: scale(1.10);
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-content {
+        margin: 8px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-section{
+        width: 25%;
+        height: 12%;
+        margin: 10px 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-section a{
+        font-size: 12px;
+    }
+}
