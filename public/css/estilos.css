@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 /* N A V B A R */
 .bg-dark-grey{
     background-color: #353a40;
